@@ -1,0 +1,13 @@
+project: lennart
+service: oidce2e
+build:
+    constructor: static
+    ignore:
+        - .valar.yml
+        - .git
+        - .github
+        - README.md
+    environment: []
+deployment:
+    skip: false
+    environment: []
